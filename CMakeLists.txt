@@ -24,6 +24,10 @@ add_executable(spv_test
 	${SPV_TEST_SOURCE_DIR}/spv_test.cpp
 )
 
+# add_executable(spv_test_pthreads
+# 	${SPV_TEST_SOURCE_DIR}/spv_test_pthreads.cpp
+# )
+
 set_target_properties(spv_test PROPERTIES
 	CXX_STANDARD 20
 	CXX_STANDARD_REQUIRED YES
